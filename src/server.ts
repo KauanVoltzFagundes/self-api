@@ -6,7 +6,7 @@ const app: FastifyInstance = fastify({ logger: true });
 
 // Configurando o CORS para permitir requisições do domínio especificado
 app.register(cors, {
-    origin: 'https://self-api-ihq9.vercel.app', // Permite apenas requisições desse domínio
+    origin: 'https://self-kjg0or20x-kauanvoltzfagundes-projects.vercel.app/', // Permite apenas requisições desse domínio
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos HTTP permitidos
 });
 
